@@ -1,53 +1,7 @@
-.main__section {
+.main__section{
     padding: 30px 0;
 }
 
 .main__section_theme_grey {
     background: #f9f9f9;
-}
-
-.main__section-badge {
-    border-radius: 5px;
-    color: #ffffff;
-    font-size: 1.2rem;
-    padding: 5px 10px;
-    display: inline-block;
-    margin: 0.25rem;
-    font-family: 'Courier New', Courier, monospace;
-}
-
-.main__section-badge_theme_red {
-    background: #f44336;
-}
-
-.main__section-badge_theme_orange {
-    background: #ff9800;
-}
-
-.main__section-badge_theme_green {
-    background: #4caf50;
-}
-
-.main__section-badge_theme_blue {
-    background: #2196f3;
-}
-
-.main__section-badge_theme_emerald {
-    background: #009688;
-}
-
-.main__section-badge_theme_violet {
-    background: #3f51b5;
-}
-
-.main__section-badge_theme_turquoise {
-    background: #00c9b7;
-}
-
-.main__section-badge_theme_stone {
-    background: #607D8B;
-}
-
-.main__section-badge_theme_pink {
-    background: #E91E63;
 }

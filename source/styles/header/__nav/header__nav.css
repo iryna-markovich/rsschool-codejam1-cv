@@ -15,7 +15,7 @@
 
 .header__nav-logo span:last-child {
     color: #ffffff;
-    margin-left: 10px;
+    margin: 0 10px;
 }
 
 .header__nav-link {
@@ -31,4 +31,12 @@
 
 .header__nav-link:hover {
     color: #ffd300;
+}
+
+@media(max-width: 670px) {
+    .header__menu {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 }

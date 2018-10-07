@@ -6,14 +6,19 @@
 .header__section-pic {
     border-radius: 50%;
     overflow: hidden;
-    width: 250px;
-    height: 250px;
+    min-width: 250px;
+    min-height: 250px;
+    line-height: 0;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
 }
 
 .header__section-img {
-    width: 100%;
+    width: 250px;
     height: auto;
+}
+
+.header__section-name {
+    margin: 0 15% 0 5%;
 }
 
 .header__section-sub-title {
@@ -21,4 +26,55 @@
     opacity: 0.6;
     font-size: 1.5rem;
     margin: 2rem 0 1rem;
+}
+
+.header__section-links {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__section-links a {
+    display: block;
+    width: 45px;
+    height: 45px;
+}
+
+.header__section-links a:hover {
+    opacity: 0.8;
+}
+
+.header__section-links a::before {
+    content: '';
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(../../../img/logo-set.png) no-repeat;
+    background-size: 100%;
+    margin: 5px;
+}
+
+.header__section-links_linkedin::before {
+    background-position: 0 0 !important;
+}
+
+.header__section-links_behance::before {
+    background-position: 0 -35px !important;
+}
+
+.header__section-links_netlify::before {
+    background-position: 0 -70px !important;
+}
+
+.header__section-links_instagram::before {
+    background-position: 0 -105px !important;
+}
+
+@media(max-width: 670px) {
+    .header__section-name {
+        margin: 0;
+    }
+
+    .header__section-links {
+        flex-direction: row;
+    }
 }
