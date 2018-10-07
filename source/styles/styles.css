@@ -176,7 +176,7 @@ p {
     display: block;
     width: 35px;
     height: 35px;
-    background: url(../../../img/logo-set.png) no-repeat;
+    background: url(../img/logo-set.png) no-repeat;
     background-size: 100%;
     margin: 5px;
 }
@@ -305,19 +305,19 @@ p {
 }
 
 .main__card_theme_github::after {
-    background: url(../../../img/github.png) no-repeat center center;
+    background: url(../img/github.png) no-repeat center center;
 }
 
 .main__card_theme_codewars::after {
-    background: url(../../../img/codewars.png) no-repeat center center;
+    background: url(../img/codewars.png) no-repeat center center;
 }
 
 .main__card_theme_htmlAcademy::after {
-    background: url(../../../img/htmlacademy.png) no-repeat center center;
+    background: url(../img/htmlacademy.png) no-repeat center center;
 }
 
 .main__card_theme_codecademy::after {
-    background: url(../../../img/codecademy.png) no-repeat center center;
+    background: url(../img/codecademy.png) no-repeat center center;
 }
 
 @media(max-width: 670px) {

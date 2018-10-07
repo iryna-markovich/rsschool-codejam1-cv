@@ -1,9 +1,0 @@
-.main__contacts-item {
-    width: 50%;
-}
-
-@media(max-width: 670px) {
-    .main__contacts-item {
-        width: 100%;
-    }
-}
