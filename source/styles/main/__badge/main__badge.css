@@ -1,0 +1,54 @@
+.main__badge {
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    display: inline-block;
+    margin: 0.25rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main__badge_theme_red {
+    background: #f44336;
+}
+
+.main__badge_theme_orange {
+    background: #ff9800;
+}
+
+.main__badge_theme_green {
+    background: #4caf50;
+}
+
+.main__badge_theme_blue {
+    background: #2196f3;
+}
+
+.main__badge_theme_emerald {
+    background: #009688;
+}
+
+.main__badge_theme_violet {
+    background: #3f51b5;
+}
+
+.main__badge_theme_turquoise {
+    background: #00c9b7;
+}
+
+.main__badge_theme_stone {
+    background: #607D8B;
+}
+
+.main__badge_theme_pink {
+    background: #E91E63;
+}
+.main__badge_theme_dviolet {
+    background: #302683;
+}
+.main__badge_theme_grey {
+    background: #323131;
+}
+.main__badge_theme_lgrey {
+    background: #bbc3c7;
+}
