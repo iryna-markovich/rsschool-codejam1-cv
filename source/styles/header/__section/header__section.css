@@ -1,0 +1,24 @@
+.header__section {
+    background: linear-gradient(to right top, #ffd300, #ffb200, #fd9000, #f76d00, #ed4409);
+    padding: 60px 0;
+}
+
+.header__section-pic {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 250px;
+    height: 250px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+
+.header__section-img {
+    width: 100%;
+    height: auto;
+}
+
+.header__section-sub-title {
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 1.5rem;
+    margin: 2rem 0 1rem;
+}

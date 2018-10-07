@@ -1,0 +1,34 @@
+.header__nav {
+    position: relative;
+    background: #222222;
+    padding: 10px 0;
+}
+
+.header__nav-logo {
+    text-decoration: none;
+}
+
+.header__nav-logo span:first-child {
+    color: #ffd300;
+    font-size: 1.5rem;
+}
+
+.header__nav-logo span:last-child {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.header__nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 0.8rem;
+    padding: 10px;
+}
+
+.header__nav-link:last-child {
+    padding-right: 0px;
+}
+
+.header__nav-link:hover {
+    color: #ffd300;
+}
